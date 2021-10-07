@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+main{
+    background-color: wheat;
+    border: 2px solid rgb(179, 23, 23);
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    background-image: linear-gradient(to right, rgb(70, 125, 161),rgb(29, 27, 146));
+    height: 30%;
+}
+
+section{
+    background-color: bisque;
+    border: 2px solid black;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: chartreuse;
+    height: 10%;
+}
+
+summary{
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    border: 2px solid rgba(96, 33, 179, 0.37);
+    background-color: darkkhaki;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside{
+    background-color: bisque;
+    border: 2px solid rgb(32, 155, 48);
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+div{height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(188, 219, 188);
+    margin: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(188, 219, 188);
+    margin: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
